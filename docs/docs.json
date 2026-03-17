@@ -911,6 +911,7 @@
                   "channels/irc",
                   "channels/line",
                   "channels/matrix",
+                  "channels/max",
                   "channels/mattermost",
                   "channels/msteams",
                   "channels/nextcloud-talk",
