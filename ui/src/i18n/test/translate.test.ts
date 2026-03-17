@@ -1,5 +1,6 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { pt_BR } from "../locales/pt-BR.ts";
+import { ru } from "../locales/ru.ts";
 import { zh_CN } from "../locales/zh-CN.ts";
 import { zh_TW } from "../locales/zh-TW.ts";
 
@@ -96,5 +97,6 @@ describe("i18n", () => {
     expect((pt_BR.common as { version?: string }).version).toBeTruthy();
     expect((zh_CN.common as { version?: string }).version).toBeTruthy();
     expect((zh_TW.common as { version?: string }).version).toBeTruthy();
+    expect((ru.common as { version?: string }).version).toBeTruthy();
   });
 });
